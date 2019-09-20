@@ -1,0 +1,8 @@
+{
+  "short_name": "react-hooks-lab",
+  "name": "react-hooks-lab",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
