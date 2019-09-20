@@ -13,16 +13,14 @@ npm install --save react-hooks-lab
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import { useMyHook } from 'react-hooks-lab'
+import { useMyHook } from "react-hooks-lab";
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>{example}</div>
-  )
-}
+  const example = useMyHook();
+  return <div>{example}</div>;
+};
 ```
 
 ## License

@@ -1,12 +1,15 @@
-import React from 'react'
-import { useMyHook } from 'react-hooks-lab'
+import React from "react";
+import { useWindowSize } from "react-hooks-lab";
 
 const App = () => {
-  const example = useMyHook()
+  const windowSize = useWindowSize(100);
+
   return (
-    <div>
-      {example}
-    </div>
-  )
-}
-export default App
+    <>
+      <span>
+        {windowSize.innerWidth},{windowSize.innerHeight}
+      </span>
+    </>
+  );
+};
+export default App;
