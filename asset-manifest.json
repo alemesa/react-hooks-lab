@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-hooks-lab/static/css/main.2c6a48fe.chunk.css",
+    "main.js": "/react-hooks-lab/static/js/main.d7855a5e.chunk.js",
+    "main.js.map": "/react-hooks-lab/static/js/main.d7855a5e.chunk.js.map",
+    "runtime-main.js": "/react-hooks-lab/static/js/runtime-main.781bf1b1.js",
+    "runtime-main.js.map": "/react-hooks-lab/static/js/runtime-main.781bf1b1.js.map",
+    "static/js/2.e87216ce.chunk.js": "/react-hooks-lab/static/js/2.e87216ce.chunk.js",
+    "static/js/2.e87216ce.chunk.js.map": "/react-hooks-lab/static/js/2.e87216ce.chunk.js.map",
+    "index.html": "/react-hooks-lab/index.html",
+    "precache-manifest.b0368e7b6dd46183ece4c14fe0f4b3e9.js": "/react-hooks-lab/precache-manifest.b0368e7b6dd46183ece4c14fe0f4b3e9.js",
+    "service-worker.js": "/react-hooks-lab/service-worker.js",
+    "static/css/main.2c6a48fe.chunk.css.map": "/react-hooks-lab/static/css/main.2c6a48fe.chunk.css.map"
+  }
+}
