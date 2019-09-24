@@ -7,12 +7,9 @@ const useScrollProgress = ref => {
     const updateHeight = () => {
       if (!ref.current) return;
 
-      const { height } = ref.current.getBoundingClientRect();
-
-      setProgress(window.scrollY / (height - window.innerHeight));
+      const math = (100 * window.scrollY) / (document.documentElement.scrollHeight - window.innerHeight);
+      setProgress(math.toFixed(0));
     };
-
-    updateHeight();
 
     window.addEventListener("scroll", updateHeight);
     return () => {
