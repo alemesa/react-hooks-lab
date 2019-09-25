@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { isBrowser } from "../util";
 
 const useScrollProgress = ref => {
   const [progress, setProgress] = useState(0);
@@ -11,9 +12,9 @@ const useScrollProgress = ref => {
       setProgress(math.toFixed(0));
     };
 
-    window.addEventListener("scroll", updateHeight);
+    isBrowser && window.addEventListener("scroll", updateHeight);
     return () => {
-      window.removeEventListener("scroll", updateHeight);
+      isBrowser && window.removeEventListener("scroll", updateHeight);
     };
   }, []);
 

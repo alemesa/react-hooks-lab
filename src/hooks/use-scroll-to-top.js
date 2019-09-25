@@ -1,8 +1,9 @@
 import { useEffect } from "react";
+import { isBrowser } from "../util";
 
 function useScrollToTop() {
   useEffect(() => {
-    if (window) window.scrollTo(0, 0);
+    if (isBrowser) window.scrollTo(0, 0);
   }, []);
 }
 

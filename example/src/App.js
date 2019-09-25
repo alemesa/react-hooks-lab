@@ -3,7 +3,7 @@ import { useWindowSize, useMousePosition, useScrollProgress } from "react-hooks-
 
 const App = () => {
   const { innerWidth, innerHeight } = useWindowSize(100);
-  //const { x, y } = useMousePosition();
+  const { x, y } = useMousePosition();
   const scrollRef = useRef();
 
   const scrollProgress = useScrollProgress(scrollRef);
@@ -19,9 +19,9 @@ const App = () => {
       </div>
       <div>
         <h2>Mouse Position Hook</h2>
-        mouse position x: {}
+        mouse position x: {x}
         <br />
-        mouse position y: {}
+        mouse position y: {y}
       </div>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa illum aperiam, nisi suscipit, amet perspiciatis doloremque vitae, saepe
       culpa voluptates eius quis dolor id eligendi veritatis voluptas quibusdam. Magnam? Lorem, ipsum dolor sit amet consectetur adipisicing elit.

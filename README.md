@@ -30,3 +30,11 @@ MIT © [alemesa](https://github.com/alemesa)
 ---
 
 This hook is created using [create-react-hook](https://github.com/hermanya/create-react-hook).
+
+## Contribution
+
+- Clone this repo
+- cd on it and npm install
+- cd /example and npm install
+- run both at the same time
+- to run docz inside example run npm run start-docz
