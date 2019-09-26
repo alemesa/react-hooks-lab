@@ -5,11 +5,12 @@ import { getScrollTop } from "../util/";
 const SCROLL_UP = "up";
 const SCROLL_DOWN = "down";
 const TOP = "top";
+const STATIC = "static";
 const defaultThrottle = 100;
 
 export default function useScrollDirection(throttle = defaultThrottle) {
   const lastScrollY = useRef(getScrollTop());
-  const [scrollDir, setScrollDir] = useState(null);
+  const [scrollDir, setScrollDir] = useState(TOP);
 
   const [handleScroll] = useDebouncedCallback(
     useCallback(() => {
