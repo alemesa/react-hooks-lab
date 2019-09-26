@@ -6,7 +6,6 @@ const WindowSize = () => {
 
   return (
     <div>
-      <h2>Window Size Hook</h2>
       window width: {innerWidth}
       <br />
       window height: {innerHeight}

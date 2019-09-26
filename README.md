@@ -31,7 +31,9 @@ MIT © [alemesa](https://github.com/alemesa)
 
 This hook is created using [create-react-hook](https://github.com/hermanya/create-react-hook).
 
-## Contribution
+## Contribution Guide
+
+Easiest way to run this repo is to have the main package, the example and the docz running at the same time, you could skip the docz until you're ready to go
 
 - Clone this repo
 - cd on it and npm install

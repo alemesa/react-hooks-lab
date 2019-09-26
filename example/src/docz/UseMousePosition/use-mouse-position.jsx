@@ -6,7 +6,6 @@ const MousePosition = () => {
 
   return (
     <div>
-      <h2>Mouse Position Hook</h2>
       Mouse position x: {x}
       <br />
       Mouse position y: {y}

@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react";
 import { isBrowser } from "../util";
 
-const useScrollProgress = ref => {
+const useScrollProgress = () => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
     const updateHeight = () => {
-      if (!ref.current) return;
-
       const math = (100 * window.scrollY) / (document.documentElement.scrollHeight - window.innerHeight);
       setProgress(math.toFixed(0));
     };

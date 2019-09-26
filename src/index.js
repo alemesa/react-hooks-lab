@@ -1,6 +1,8 @@
-export { default as useIntersectionObserver } from "./hooks/use-window-size";
+export { default as useIntersectionObserver } from "./hooks/use-intersection-observer";
 
 export { default as useMousePosition } from "./hooks/use-mouse-position";
+
+export { default as useScrollDirection } from "./hooks/use-scroll-direction";
 
 export { default as useScrollProgress } from "./hooks/use-scroll-progress";
 
