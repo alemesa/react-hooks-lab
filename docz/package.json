@@ -1,5 +1,5 @@
 {
-  "name": "React Hooks Lab",
+  "name": "react-hooks-lab-docz",
   "scripts": {
     "docz:dev": "docz dev",
     "docz:build": "docz build"
