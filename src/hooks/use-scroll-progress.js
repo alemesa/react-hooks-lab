@@ -14,7 +14,7 @@ const useScrollProgress = () => {
     return () => {
       isBrowser && window.removeEventListener("scroll", updateHeight);
     };
-  }, []);
+  }, [setProgress]);
 
   return progress;
 };

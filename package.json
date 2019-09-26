@@ -22,8 +22,7 @@
     "start": "rollup -c -w",
     "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build",
-    "deploy-docz": "npm run build && cd docz && npm run docz:build"
+    "deploy": "gh-pages -d example/build"
   },
   "dependencies": {
     "use-debounce": "^2.0.0"

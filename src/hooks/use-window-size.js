@@ -15,7 +15,7 @@ function useWindowSize(debounce = 250) {
   const [handleResize] = useDebouncedCallback(
     useCallback(() => {
       setWindowSize(getSize());
-    }, []),
+    }, [setWindowSize]),
     debounce
   );
 

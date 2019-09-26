@@ -42,7 +42,7 @@ function useIntersectionObserver(ref, config = {}, rootRef = null) {
     return () => {
       if (current) observer.unobserve(current);
     };
-  }, [ref, options.triggerOnce]);
+  }, [ref, options, setIntersecting]);
 
   return isIntersecting;
 }
