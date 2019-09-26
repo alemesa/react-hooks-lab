@@ -1,0 +1,13 @@
+{
+  "name": "React Hooks Lab",
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "devDependencies": {
+    "docz": "^2.0.0-rc.42",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-hooks-lab": "file:.."
+  }
+}

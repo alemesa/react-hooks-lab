@@ -4,7 +4,10 @@
   "description": "Collection of useful hooks",
   "author": "alemesa",
   "license": "MIT",
-  "repository": "alemesa/react-hooks-lab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alemesa/react-hooks-lab.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -50,9 +53,11 @@
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
+    "docz": "^2.0.0-rc.42",
     "gh-pages": "^2.1.1",
     "npm-run-all": "^4.1.5",
-    "react": "^16.8.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-scripts": "^3.0.1",
     "rollup": "^1.1.2",
     "rollup-plugin-babel": "^4.3.2",
@@ -60,5 +65,14 @@
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-url": "^2.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alemesa/react-hooks-lab/issues"
+  },
+  "homepage": "https://github.com/alemesa/react-hooks-lab#readme",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "keywords": []
 }
