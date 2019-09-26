@@ -1,11 +1,10 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useDebouncedCallback } from "use-debounce";
-import { getScrollTop } from "../util/";
+import { getScrollTop, isBrowser } from "../util/";
 
 const SCROLL_UP = "up";
 const SCROLL_DOWN = "down";
 const TOP = "top";
-const STATIC = "static";
 const defaultThrottle = 100;
 
 export default function useScrollDirection(throttle = defaultThrottle) {
@@ -23,9 +22,10 @@ export default function useScrollDirection(throttle = defaultThrottle) {
   );
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
+    if (isBrowser) {
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }
   }, [handleScroll]);
 
   return scrollDir;
