@@ -3,8 +3,8 @@ import doczPluginNetlify from "docz-plugin-netlify";
 export default {
   title: "Jam3 Hooks",
   description: "Reusable library",
-  src: "docs/content",
-  files: "docs/content/**/*.mdx",
+  src: "content",
+  files: "content/**/*.mdx",
   typescript: false,
   propsParser: false,
   codeSandbox: false,
