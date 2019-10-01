@@ -21,6 +21,9 @@
     "prepare": "npm run build",
     "deploy-docs": "npm install && npm run build && cd docs && npm install && npm run docz:build"
   },
+  "resolutions": {
+    "react-hot-loader": "4.8.4"
+  },
   "dependencies": {
     "use-debounce": "^2.0.0"
   },
@@ -61,7 +64,9 @@
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-url": "^2.1.0"
+    "rollup-plugin-url": "^2.1.0",
+    "docz-plugin-netlify": "1.1.4",
+    "docz-theme-default": "1.2.0"
   },
   "bugs": {
     "url": "https://github.com/alemesa/react-hooks-lab/issues"
