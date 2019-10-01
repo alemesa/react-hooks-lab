@@ -21,9 +21,6 @@
     "prepare": "npm run build",
     "deploy-docs": "npm install && npm run build && cd docs && npm install && npm run docz:build"
   },
-  "resolutions": {
-    "react-hot-loader": "4.8.4"
-  },
   "dependencies": {
     "use-debounce": "^2.0.0"
   },
@@ -53,8 +50,6 @@
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
-    "docz": "^2.0.0-rc.42",
-    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.0.1",
