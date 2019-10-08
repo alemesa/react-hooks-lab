@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-lab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of useful hooks",
   "author": "alemesa",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "start": "rollup -c -w",
     "prepare": "npm run build",
     "build-docs": "cd docs && npm install && npm run docz:build",
-    "deploy": "npm-run-all prepare build-docs -s"
+    "deploy": "npm run build-docs && netlify deploy --prod"
   },
   "dependencies": {
     "use-debounce": "^2.0.0"
@@ -51,6 +51,9 @@
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
+    "gh-pages": "^2.1.1",
+    "netlify-cli": "^2.16.0",
+    "np": "^5.1.0",
     "npm-run-all": "^4.1.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
