@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-lab",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Collection of useful hooks",
   "author": "alemesa",
   "license": "MIT",
@@ -8,11 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/alemesa/react-hooks-lab.git"
   },
-  "keywords": [
-    "react",
-    "react-hooks",
-    "hooks"
-  ],
+  "keywords": [],
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -77,6 +73,5 @@
   "directories": {
     "docs": "docs",
     "playground": "playground"
-  },
-  "keywords": []
+  }
 }
