@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { isBrowser } from "../util";
 
-const useHover = (ref, inCallback, outCallback) => {
+const useOnHover = (ref, inCallback, outCallback) => {
   useEffect(() => {
     if (isBrowser) {
       ref.current.addEventListener("mouseenter", inCallback);
@@ -17,4 +17,4 @@ const useHover = (ref, inCallback, outCallback) => {
   }, []);
 };
 
-export default useHover;
+export default useOnHover;
