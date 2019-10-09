@@ -20,29 +20,32 @@ You could face 3 cases
    dynamic to multiple cases well open a PR
 3. Your use case is too specific, just copy and paste the hook and adapt it these way at least you're not starting from 0 and with best practices
 
-# Installation
+## Install
 
 ```bash
-npm i react-hooks-lab
+npm install react-hooks-lab
+yarn add react-hooks-lab
 ```
+
+## Usage
 
 ```jsx
 // Import depending what you need it will tree-shake the modules
 import { useIntersectionObserver } from "react-hooks-lab";
 import { useMousePosition } from "react-hooks-lab";
+import { useOnHover } from "react-hooks-lab";
 import { useScrollDirection } from "react-hooks-lab";
 import { useScrollProgress } from "react-hooks-lab";
 import { useScrollToTop } from "react-hooks-lab";
 import { useWindowSize } from "react-hooks-lab";
 ```
 
-# Contribution Guide
+For more information, please refer to [Usage](https://react-hooks-lab.netlify.com/) in our documentation.
 
-Add detailed steps and improve the workflow to make it easy
+## Contributing
 
-```bash
-git clone <repo>
-npm install && npm start;
-cd example && npm install && npm start
-cd example && npm start-docz
-```
+Please make sure to read the [contributing guide](CONTRIBUTING.md) before making a pull request.
+
+## Changelog
+
+Detailed changes for each release are documented in the [release notes](CHANGELOG.md).
